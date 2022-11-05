@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vue图片切换</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+
+<body background="./images/background.jpg">
+  <div id="main">
+    <div class="center">
+      <img :src="imgList[index]" alt="" />
+      <a href="javascript:void(0)" @click="prev" class="left">
+        <img src="./images/prev.png" alt="" />
+      </a>
+      <a href="javascript:void(0)" @click="next" class="right">
+        <img src="./images/next.png" alt="" />
+      </a>
+    </div>
+  </div>
+  <script>
+    const app = new Vue({
+      el: "#main",
+      data: {
+        imgList: [
+          "./images/wallhaven1.jpg",
+          "./images/background.jpg",
+          "./images/wallhaven5.jpg"
+        ],
+        index: 0
+      },
+      methods: {
+        next() {
+          this.index++;
+          if (this.index > this.imgList.length - 1) {
+            alert("已经是最后一张了！");
+            this.index = this.imgList.length - 1;
+          }
+        },
+        prev() {
+          this.index--;
+          if (this.index < 0) {
+            alert("这是第一张！");
+            this.index = 0;
+          }
+        }
+      }
+    });
+  </script>
+</body>
+<script type="text/javascript" src="../js/vue.js"></script>
+
+</html>

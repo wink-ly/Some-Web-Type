@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+#main .center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+#main .center>img {
+  display: block;
+  border-radius: 15px;
+  width: 700px;
+  height: 458px;
+}
+
+#main .center a {
+  text-decoration: none;
+  width: 45px;
+  height: 100px;
+  position: absolute;
+  top: 179px;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+#main .center .left {
+  left: 15px;
+  text-align: left;
+  padding-right: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#main .center .right {
+  right: 15px;
+  text-align: right;
+  padding-left: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

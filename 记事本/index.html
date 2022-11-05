@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <title>记事本</title>
+</head>
+
+<body>
+    <section id="total">
+        <!-- 标题 -->
+        <div class="header">
+            <h2>记事本</h2>
+            <input v-model="inputvalue" @keyup.enter="add" placeholder="写点什么吧" class="text">
+        </div>
+        <!-- 列表区域 -->
+        <section class="main">
+            <ul class="list">
+                <li v-for="(item,index) in List">
+                    <div>
+                        <span>{{index+1}}.</span>
+                        <label>{{item}}</label>
+                        <button class="delete" @click="remove(index)"></button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <span v-show="List.length!=0">count:{{ List.length }}</span>
+            <button class="clear" @click="clear" v-show="List.length!=0">Clear</button>
+        </footer>
+    </section>
+    <script>
+        var app = new Vue({
+            el: "#total",
+            data: {
+                List:[],
+                inputvalue:""
+            },
+            methods:{
+                add:function(){
+                    if(this.inputvalue)
+                        this.List.push(this.inputvalue);
+                    else
+                        this.List.push("写点什么吧");
+                },
+                remove:function(index){
+                    this.List.splice(index,1);
+                },
+                clear:function(){
+                    this.List=[];
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
