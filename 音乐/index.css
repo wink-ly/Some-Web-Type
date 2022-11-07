@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap_player{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+}
+.search_bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1eacda;
+}
+.search_bar img{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.search_bar input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    font-size: 16px;
+    border: 0;
+    text-indent: 15px;/* 行内缩进 */
+    background-color: rgba(255, 255, 255, 0.45);;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.mid{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.song_list{
+    position: absolute;
+    width: 200px;
+    height: 445px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.song_list::-webkit-scrollbar {
+    display: none;
+}
+.song_list ul{
+    padding: 10px;
+    margin: 10px;
+}
+.song_list ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 28px;
+}
+.song_list ul li a{
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin: 4px;
+    background-size: 100%;
+    background-image: url("./images/play.png");
+}
+.foot{
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    background-color: #808080;
+}
