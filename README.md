@@ -1,3 +1,1 @@
-# project_vue
-
->some web project
+some web project
