@@ -1,6 +1,6 @@
 ## 个人学习时的一些代码记录
 简单记录一些前端的样式和案例
-### vue案例
+### Vue
 * [记事本](https://wink-ly.github.io/Web/Vue/记事本/index.html)
 * [图片切换](https://wink-ly.github.io/Web/Vue/图片切换/vue.html)
 
