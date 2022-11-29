@@ -7,10 +7,10 @@
 #### html5+css3
 下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)案例自己的一些学习
 * [1.Expading-cards](https://wink-ly.github.io/Web/Web/1.Expanding-cards/index.html)
-* [2.Progess step](https://wink-ly.github.io/Web/Web/2.Progess step/index.html)
-* [4.Hidden search](https://wink-ly.github.io/Web/Web/4.Hidden search/index.html)
-* [6.Scroll animation](https://wink-ly.github.io/Web/Web/6.Scroll animation/index.html)
-* [7.Split landing page](https://wink-ly.github.io/Web/Web/7.Split landing page/index.html)
+* [2.Progess step](https://wink-ly.github.io/Web/Web/2.Progess%step/index.html)
+* [4.Hidden search](https://wink-ly.github.io/Web/Web/4.Hidden%search/index.html)
+* [6.Scroll animation](https://wink-ly.github.io/Web/Web/6.Scroll%animation/index.html)
+* [7.Split landing page](https://wink-ly.github.io/Web/Web/7.Split%landing page/index.html)
 * [8.Login page](https://wink-ly.github.io/Web/Web/8.Login page/index.html)
 * [9.Sound board](https://wink-ly.github.io/Web/Web/9.Sound board/index.html)
 * [10.Dad jokes](https://wink-ly.github.io/Web/Web/10.Dad jokes/index.html)
