@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a164df;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn{
+    background-color: rebeccapurple;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

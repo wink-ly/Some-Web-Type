@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sound board</title>
+</head>
+
+<body>
+    <audio id="applause" src="sounds/applause.mp3"></audio>
+    <audio id="boo" src="sounds/boo.mp3"></audio>
+    <audio id="gasp" src="sounds/gasp.mp3"></audio>
+    <audio id="tada" src="sounds/tada.mp3"></audio>
+    <audio id="victory" src="sounds/victory.mp3"></audio>
+    <audio id="wrong" src="sounds/wrong.mp3"></audio>
+
+    <div id="buttons"></div>
+    <script>
+        const sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
+
+        sounds.forEach(sound => {
+            const btn = document.createElement('button')
+            btn.classList.add('btn')
+            btn.innerText = sound
+            btn.addEventListener('click', () => {
+                stopSongs()
+                document.getElementById(sound).play()
+            })
+            document.getElementById('buttons').appendChild(btn)
+        })
+
+        function stopSongs() {
+            sounds.forEach(sound => {
+                const song = document.getElementById(sound)
+                song.pause()
+                song.currentTime = 0;
+                // currentTime 属性设置或返回音频/视频播放的当前位置（以秒计）。当设置该属性时，播放会跳跃到指定的位置
+            })
+        }
+    </script>
+</body>
+
+</html>
