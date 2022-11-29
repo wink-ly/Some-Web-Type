@@ -5,7 +5,7 @@
 * [图片切换](https://wink-ly.github.io/Web/Vue/图片切换/vue.html)
 
 ### HTML5+CSS3
-下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)项目自己的一些学习 
+下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)项目自己的一些实践
 
 | |project|show|
 |--|--|--|
