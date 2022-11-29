@@ -1,11 +1,11 @@
 ## 个人学习时的一些小案例
 简单记录一些前端的样式和案例
-#### vue案例
+### vue案例
 * [记事本](https://wink-ly.github.io/Web/Vue/记事本/index.html)
 * [图片切换](https://wink-ly.github.io/Web/Vue/图片切换/vue.html)
 
-#### HTML5+CSS3
-##### 下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)案例自己的一些学习
+### HTML5+CSS3
+下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)案例自己的一些学习
 * [1.Expading-cards](https://wink-ly.github.io/Web/Web/1.Expanding-cards/index.html)
 * [2.Progess step](https://wink-ly.github.io/Web/Web/2.Progess%20step/index.html)
 * [4.Hidden search](https://wink-ly.github.io/Web/Web/4.Hidden%20search/index.html)
