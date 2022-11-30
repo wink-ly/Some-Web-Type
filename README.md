@@ -2,7 +2,7 @@
 简单记录一些前端的样式和案例
 ### Vue
 * [记事本](https://wink-ly.github.io/Web/Vue/记事本/index.html)
-* [图片切换](https://wink-ly.github.io/Web/Vue/图片切换/vue.html)
+* [图片切换](https://wink-ly.github.io/Web/Vue/%E5%9B%BE%E7%89%87%E5%88%87%E6%8D%A2/vue.html)
 
 ### HTML5+CSS3
 下面是根据github上[50projects50days](https://github.com/bradtraversy/50projects50days)项目自己的一些实践
